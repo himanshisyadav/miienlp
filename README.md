@@ -26,9 +26,9 @@ If you are completely new to Python, here are some [resources](https://github.co
 
 2. Create a ```pip``` environment using the ```requirements.txt``` file.
 
-   ```
-   pip install -r /path/to/requirements.txt
-   ```
+  ```
+  pip install -r /path/to/requirements.txt
+  ```
 
 
 ## Table of Contents
