@@ -24,7 +24,7 @@ If you are completely new to Python, here are some [resources](https://github.co
   git clone git@github.com:miielab/miienlp.git
   ```
 
-2. Create a ```pip``` environment using the ```requirements.txt``` file.
+2. Create a ```pip``` environment using the ```requirements.txt``` file in the [miienlp/](miienlp/) folder.
 
   ```
   pip install -r /path/to/requirements.txt
