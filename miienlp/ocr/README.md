@@ -47,7 +47,55 @@ tesseract 5.3.1-23-gbb88
 ```
 tesseract imagename outputbase
 ```
-   
+Example:
+```
+tesseract ../../../examples/test_data/test_scans/maryjosgrandmoth00udry_19.jpg - -l eng
+```
+Output:
+```
+Estimating resolution as 570
+Detected 88 diacritics
+L
+
+-4. b
+20N
+R
+. “
+
+| \ § 4 =
+".- R “w
+- . ~ “Z s 5\ i
+< F )
+/ t. - 5 \
+I AN N |
+4 i a e o=
+; o d ."F.-' 4 o
+y * o o
+] L e -
+i Yo% L1 1A
+T W N
+- $ "N
+a Ve
+3 b o &y
+4 IR v
+\-.M l =Y ‘. ’,.:FJ' ’
+,}' ol VL
+
+They made blackberry jam and carried
+the jars into Grandmother’s little pantry to
+store for winter.
+
+Sometimes they all drove over to the river
+and went fishing. On hot summer evenings,
+they had supper on the porch—fried fish,
+roasting ears, tomatoes, and green apple pie.
+
+In the fall, they gathered hickory nuts
+and black walnuts in the woods. And from
+Grandmother’s garden Mary Jo and Jeff each
+picked out a pumpkin to take back into town
+for Halloween.
+```
 
 
 
