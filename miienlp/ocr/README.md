@@ -48,6 +48,8 @@ tesseract 5.3.1-23-gbb88
 tesseract imagename outputbase
 ```
 Example:
+Image:
+![alt text](https://github.com/himanshisyadav/miienlp/blob/main/examples/test_data/test_scans/maryjosgrandmoth00udry_19.jpg)
 ```
 tesseract ../../../examples/test_data/test_scans/maryjosgrandmoth00udry_19.jpg - -l eng
 ```
