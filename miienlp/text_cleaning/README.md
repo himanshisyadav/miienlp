@@ -13,8 +13,8 @@ One can also customize the settings to remove puncuation, digits, or convert all
 **IMPORTANT** 
 
 For more details, see:
-- [example](https://github.com/miielab/miienlp/blob/main/examples/text_cleaning.md) 
-- [setup instructions for UChicago MiiE Lab RA ONLY](https://github.com/miielab/miienlp/blob/main/documentation/miie_ra_documentation/textCleaning.md)
-- [setup instructions for running textCleaning locally](https://github.com/miielab/miienlp/blob/main/documentation/user_documentation/textCleaning.md)
+- [Example](https://github.com/miielab/miienlp/blob/main/examples/text_cleaning.md) 
+- [Setup instructions for UChicago MiiE Lab RA ONLY](https://github.com/miielab/miienlp/blob/main/documentation/miie_ra_documentation/textCleaning.md)
+- [Setup instructions for running textCleaning locally](https://github.com/miielab/miienlp/blob/main/documentation/user_documentation/textCleaning.md)
 
  
