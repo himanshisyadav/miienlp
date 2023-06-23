@@ -21,7 +21,7 @@ If you are completely new to Python, here are some [resources](https://github.co
 1. Clone the repository on your system
 
   ```
-  git clone git@github.com:miielab/miienlp.git
+  git clone --recurse-submodules git@github.com:miielab/miienlp.git
   ```
 
 2. Create a ```conda``` environment with Python version 3.7.
