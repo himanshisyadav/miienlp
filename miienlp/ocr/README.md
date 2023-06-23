@@ -14,6 +14,43 @@ For more details, see:
 - [setup instructions for UChicago MiiE Lab RA ONLY](https://github.com/miielab/miienlp/blob/main/documentation/miie_ra_documentation/ocr.md)
 - [setup instructions for running OCR locally](https://github.com/miielab/miienlp/blob/main/documentation/user_documentation/ocr.md)
 
+### How to run OCR using Tesseract
+
+1. Install Tesseract using the [guide](https://tesseract-ocr.github.io/tessdoc/Compiling.html) by Tesseract for installing elsewhere/without root.
+```
+./autogen.sh
+./configure --prefix=$HOME/local/
+make
+make install
+```
+  
+2. Check if Tesseract is installed correctly.
+```
+tesseract --version
+```
+The output should look like the following:
+```
+tesseract 5.3.1-23-gbb88
+ leptonica-1.82.0
+  libgif 5.2.1 : libjpeg 8d (libjpeg-turbo 2.1.5.1) : libpng 1.6.40 : libtiff 4.5.1 : zlib 1.2.11 : libwebp 1.3.0 : libopenjp2 2.5.0
+ Found AVX512BW
+ Found AVX512F
+ Found AVX512VNNI
+ Found AVX2
+ Found AVX
+ Found FMA
+ Found SSE4.1
+ Found libcurl/7.85.0 SecureTransport (LibreSSL/3.3.6) zlib/1.2.11 nghttp2/1.47.0
+```
+
+3. Run Tesseract on a test image. You can access some examples and tutorials [here](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html#simplest-invocation-to-ocr-an-image).
+```
+tesseract imagename outputbase
+```
+   
+
+
+
 
 
 
